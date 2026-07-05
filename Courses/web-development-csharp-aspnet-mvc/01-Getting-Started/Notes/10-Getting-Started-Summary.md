@@ -1,0 +1,312 @@
+# Getting Started Summary
+
+## Module Overview
+
+This module introduced the fundamentals of C# programming and the development environment. We learned how to create and execute a Console Application, interact with users using the `Console` class, and understand the execution flow of a C# program.
+
+This knowledge forms the foundation for learning Variables, Data Types, Object-Oriented Programming, ASP.NET MVC, and other advanced topics.
+
+---
+
+# Topics Covered
+
+- Console Application
+- Console Class
+- Console.Write()
+- Console.WriteLine()
+- Console.Read()
+- Console.ReadLine()
+- Console.ReadKey()
+- Visual Studio Setup
+- Console Application Life Cycle
+- How a C# Program Executes
+- Common Console Methods
+- Console Application vs Windows Forms
+
+---
+
+# Key Concepts
+
+## Console Application
+
+- Text-based application
+- Uses the `Console` class
+- Best for learning programming fundamentals
+- Executes from the `Main()` method
+
+---
+
+## Console Class
+
+Used for:
+
+- Displaying output
+- Reading input
+- Changing colors
+- Clearing the screen
+- Playing beep sounds
+- Controlling the console window
+
+---
+
+## Output Methods
+
+### Console.Write()
+
+- Displays text
+- Cursor remains on the same line
+
+Example
+
+```csharp
+Console.Write("Hello ");
+Console.Write("World");
+```
+
+Output
+
+```
+Hello World
+```
+
+---
+
+### Console.WriteLine()
+
+- Displays text
+- Moves the cursor to the next line
+
+Example
+
+```csharp
+Console.WriteLine("Hello");
+Console.WriteLine("World");
+```
+
+Output
+
+```
+Hello
+World
+```
+
+---
+
+# Input Methods
+
+### Console.Read()
+
+- Reads one character
+- Returns ASCII value
+
+### Console.ReadLine()
+
+- Reads an entire line
+- Returns a string
+
+### Console.ReadKey()
+
+- Reads one key press
+- Commonly used to pause the console
+
+---
+
+# Program Execution Flow
+
+```text
+Write Code
+      │
+      ▼
+Compile
+      │
+      ▼
+Intermediate Language (IL)
+      │
+      ▼
+CLR Loads Program
+      │
+      ▼
+JIT Compiler
+      │
+      ▼
+Machine Code
+      │
+      ▼
+CPU Executes
+      │
+      ▼
+Output
+```
+
+---
+
+# Execution Starts From
+
+```csharp
+static void Main()
+{
+}
+```
+
+Every Console Application starts executing from the `Main()` method.
+
+---
+
+# Important Console Methods
+
+| Method              | Purpose                |
+| ------------------- | ---------------------- |
+| Write()             | Output on same line    |
+| WriteLine()         | Output on next line    |
+| Read()              | Read one character     |
+| ReadLine()          | Read one line          |
+| ReadKey()           | Read one key           |
+| Clear()             | Clear console          |
+| Beep()              | Play beep sound        |
+| ResetColor()        | Restore default colors |
+| SetCursorPosition() | Move cursor            |
+
+---
+
+# Console Application vs Windows Forms
+
+| Console Application | Windows Forms        |
+| ------------------- | -------------------- |
+| Text Based          | Graphical UI         |
+| Keyboard Input      | Mouse + Keyboard     |
+| Easy to Learn       | Moderate             |
+| Learning Logic      | Desktop Applications |
+| Fast                | Rich User Interface  |
+
+---
+
+# Visual Studio Shortcuts
+
+| Shortcut           | Purpose               |
+| ------------------ | --------------------- |
+| F5                 | Start Debugging       |
+| Ctrl + F5          | Run Without Debugging |
+| Ctrl + Shift + B   | Build Project         |
+| Ctrl + K, Ctrl + C | Comment Code          |
+| Ctrl + K, Ctrl + U | Uncomment Code        |
+| Ctrl + .           | Quick Actions         |
+
+---
+
+# Common Beginner Mistakes
+
+❌ Forgetting `using System;`
+
+❌ Forgetting semicolons (`;`)
+
+❌ Writing code outside the `Main()` method
+
+❌ Confusing `Write()` and `WriteLine()`
+
+❌ Using `Read()` when `ReadLine()` is needed
+
+❌ Forgetting to convert string input to numeric types
+
+---
+
+# Best Practices
+
+- Keep the `Main()` method simple.
+- Use meaningful variable names.
+- Write clean and readable code.
+- Validate user input.
+- Use comments only when necessary.
+- Practice writing small console applications.
+
+---
+
+# Interview Questions
+
+### 1. What is a Console Application?
+
+A text-based application that interacts with users through the command-line interface.
+
+---
+
+### 2. Which method is the entry point of a C# program?
+
+`Main()`
+
+---
+
+### 3. What is the purpose of the Console class?
+
+To perform input and output operations in a console application.
+
+---
+
+### 4. Difference between `Write()` and `WriteLine()`?
+
+`Write()` keeps the cursor on the same line.
+
+`WriteLine()` moves the cursor to the next line.
+
+---
+
+### 5. Difference between `Read()`, `ReadLine()`, and `ReadKey()`?
+
+- `Read()` → Reads one character.
+- `ReadLine()` → Reads an entire line.
+- `ReadKey()` → Reads one key press.
+
+---
+
+### 6. What is CLR?
+
+The Common Language Runtime executes .NET applications and provides services such as memory management, garbage collection, exception handling, and JIT compilation.
+
+---
+
+### 7. What is IL?
+
+Intermediate Language generated by the C# compiler before execution.
+
+---
+
+### 8. What is JIT?
+
+The Just-In-Time Compiler converts IL code into machine code at runtime.
+
+---
+
+# Learning Outcome
+
+After completing this module, you should be able to:
+
+- Create a Console Application.
+- Use the Console class for input and output.
+- Understand the execution flow of a C# program.
+- Use Visual Studio to build and run projects.
+- Explain the roles of CLR, IL, and JIT.
+- Differentiate between Console Applications and Windows Forms.
+
+---
+
+# Next Module
+
+➡️ **02 - C# Fundamentals**
+
+Topics include:
+
+- Variables
+- Data Types
+- Naming Rules
+- Type Conversion
+- Operators
+- Arrays
+- Loops
+- Methods
+
+---
+
+# References
+
+- Microsoft Learn – C#
+- Microsoft Learn – .NET
+- C# Programming Guide
+- .NET API Documentation
